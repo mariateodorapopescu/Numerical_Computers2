@@ -1,0 +1,94 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x9D5046029D504602",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../prb2_c1-vivado.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "sc2_0": ""
+    },
+    "ports": {
+      "c": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "b": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "a": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "d": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "sc2_0": {
+        "vlnv": "xilinx.com:hls:sc2:1.0",
+        "ip_revision": "2113368824",
+        "xci_name": "design_1_sc2_0_0",
+        "xci_path": "ip\\design_1_sc2_0_0\\design_1_sc2_0_0.xci",
+        "inst_hier_path": "sc2_0"
+      }
+    },
+    "nets": {
+      "a_0_1": {
+        "ports": [
+          "a",
+          "sc2_0/a"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b",
+          "sc2_0/b"
+        ]
+      },
+      "c_0_1": {
+        "ports": [
+          "c",
+          "sc2_0/c"
+        ]
+      },
+      "sc2_0_d": {
+        "ports": [
+          "sc2_0/d",
+          "d"
+        ]
+      }
+    }
+  }
+}
