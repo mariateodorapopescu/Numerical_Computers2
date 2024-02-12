@@ -1,0 +1,241 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 463.160 ; gain = 184.734
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.runs/synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+Command: synth_design -top design_1_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17940
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1321.594 ; gain = 439.508
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [d:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [d:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_sc1_0_0' [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.runs/synth_1/.Xil/Vivado-20192-DESKTOP-91RNSVG/realtime/design_1_sc1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_sc1_0_0' (0#1) [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.runs/synth_1/.Xil/Vivado-20192-DESKTOP-91RNSVG/realtime/design_1_sc1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (0#1) [d:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (0#1) [d:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1427.902 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.gen/sources_1/bd/design_1/ip/design_1_sc1_0_0/design_1_sc1_0_0/design_1_sc1_0_0_in_context.xdc] for cell 'design_1_i/sc1_0'
+Finished Parsing XDC File [d:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.gen/sources_1/bd/design_1/ip/design_1_sc1_0_0/design_1_sc1_0_0/design_1_sc1_0_0_in_context.xdc] for cell 'design_1_i/sc1_0'
+Parsing XDC File [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Seg[0]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:60]
+WARNING: [Vivado 12-584] No ports matched 'Seg[1]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:61]
+WARNING: [Vivado 12-584] No ports matched 'Seg[2]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:62]
+WARNING: [Vivado 12-584] No ports matched 'Seg[3]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:63]
+WARNING: [Vivado 12-584] No ports matched 'Seg[4]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:64]
+WARNING: [Vivado 12-584] No ports matched 'Seg[5]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:65]
+WARNING: [Vivado 12-584] No ports matched 'Seg[6]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:66]
+WARNING: [Vivado 12-584] No ports matched 'DP_0'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:68]
+WARNING: [Vivado 12-584] No ports matched 'An[0]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:70]
+WARNING: [Vivado 12-584] No ports matched 'An[1]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:71]
+WARNING: [Vivado 12-584] No ports matched 'An[2]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:72]
+WARNING: [Vivado 12-584] No ports matched 'An[3]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:73]
+WARNING: [Vivado 12-584] No ports matched 'An[4]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:74]
+WARNING: [Vivado 12-584] No ports matched 'An[5]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:75]
+WARNING: [Vivado 12-584] No ports matched 'An[6]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:76]
+WARNING: [Vivado 12-584] No ports matched 'An[7]'. [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc:77]
+Finished Parsing XDC File [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.srcs/constrs_1/imports/xilinx/constraint_lab01.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1427.902 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1427.902 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/sc1_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 1427.902 ; gain = 545.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.031 ; gain = 551.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.031 ; gain = 551.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.031 ; gain = 551.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.031 ; gain = 551.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.031 ; gain = 551.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.031 ; gain = 551.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |design_1_sc1_0_0 |         1|
++------+-----------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |design_1_sc1_0 |     1|
+|2     |IBUF           |     8|
+|3     |OBUF           |     8|
++------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.031 ; gain = 551.945
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 1434.031 ; gain = 551.945
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 1434.031 ; gain = 551.945
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1446.102 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1449.785 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+The system cannot find the path specified.
+Synth Design complete | Checksum: 7654088
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:39 . Memory (MB): peak = 1449.785 ; gain = 978.391
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1449.785 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  4 14:44:38 2024...

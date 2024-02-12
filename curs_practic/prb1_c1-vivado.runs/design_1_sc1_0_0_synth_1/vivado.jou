@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jan  4 14:40:45 2024
+# Process ID: 2516
+# Current directory: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.runs/design_1_sc1_0_0_synth_1
+# Command line: vivado.exe -log design_1_sc1_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_sc1_0_0.tcl
+# Log file: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.runs/design_1_sc1_0_0_synth_1/design_1_sc1_0_0.vds
+# Journal file: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c1-vivado/prb1_c1-vivado.runs/design_1_sc1_0_0_synth_1\vivado.jou
+# Running On: DESKTOP-91RNSVG, OS: Windows, CPU Frequency: 3793 MHz, CPU Physical cores: 16, Host memory: 29832 MB
+#-----------------------------------------------------------
+source design_1_sc1_0_0.tcl -notrace
