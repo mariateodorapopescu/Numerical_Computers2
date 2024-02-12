@@ -27,24 +27,17 @@ module IF_ID(input [31:0] pc_in, Instruction_IF,
   always@(posedge clk) begin 
     if (reset)
         begin
-             // Daca semnalul de reset este activat, resetam registrul
+             // Dac? semnalul de reset este activat, reset?m registrul
             Instruction_out <= 32'b0;
             PC_out <= 32'b0;
         end     
     else   
         if (write)
             begin
-            // Daca semnalul de scriere este activat, actualizam registrul cu noile date
+            // Dac? semnalul de scriere este activat, actualiz?m registrul cu noile date
                 Instruction_out <= Instruction_IF;
                 PC_out <= pc_in;
             end
     end
-    
 endmodule
-
-
-
-
-
-
 

@@ -26,11 +26,11 @@ module PC(input clk, res, write,
           
     always @(posedge clk)
         begin
-        // Verifica daca semnalul de reset este activat
+        // Verific?m dac? semnalul de reset este activat
             if (res)
                 out <= 32'b0;
         else 
-            // Daca semnalul de scriere este activat
+            // Dac? semnalul de scriere este activat
             if (write)
                 out <= in;  
         end

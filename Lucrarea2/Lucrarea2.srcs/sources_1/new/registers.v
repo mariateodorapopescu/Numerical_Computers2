@@ -27,14 +27,14 @@ module registers(input clk, reg_write,
     
     reg [31:0] regs [31:0];
 
-     // Scrie in registrul specificat daca semnalul de scriere este activat
+     // Scrie în registrul specificat dac? semnalul de scriere este activat
     always @(posedge clk)  
         begin
             if (reg_write == 1)  
                 regs[write_reg] <= write_data;
         end
         
-    // Initializarea registrilor 
+    // Ini?ializarea registrilor cu zero
     initial begin
         for (integer i = 0; i < 32; i = i + 1)
             regs[i] <= i;

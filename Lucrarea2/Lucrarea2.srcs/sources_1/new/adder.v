@@ -25,5 +25,4 @@ module adder(input [31:0] ina, inb,
              
     always @ (*)
             out <= ina + inb;
-            
 endmodule

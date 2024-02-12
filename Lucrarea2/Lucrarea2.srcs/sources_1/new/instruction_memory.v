@@ -30,13 +30,8 @@ module instruction_memory(input [9:0] address,
         if (address >= 0 && address <= 1023)
             instruction <= codeMemory[address];
         else
-            // Valoare implicita pentru adrese invalide
+            // Valoare implicit? pentru adrese invalide
             instruction <= 32'hFFFFFFFF; 
     end
         
 endmodule
-
-
-
-
-
