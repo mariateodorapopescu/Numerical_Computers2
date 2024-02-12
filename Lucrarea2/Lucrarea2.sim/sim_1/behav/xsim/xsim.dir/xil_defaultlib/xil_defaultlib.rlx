@@ -1,0 +1,16 @@
+0.7
+2020.2
+Jun 16 2023
+19:55:58
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sim_1/new/RISC_V_TB.v,1701861968,verilog,,,,RISC_V_TB,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/ID.v,1702027441,verilog,,C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/IF.v,,ID,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/IF.v,1701862856,verilog,,C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/IF_ID.v,,IF,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/IF_ID.v,1702027811,verilog,,C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/PC.v,,IF_ID,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/PC.v,1701862856,verilog,,C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/RISC_V_IF_ID.v,,PC,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/RISC_V_IF_ID.v,1701859773,verilog,,C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/adder.v,,RISC_V_IF_ID,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/adder.v,1701859773,verilog,,C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/imm_gen.v,,adder,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/imm_gen.v,1701859773,verilog,,C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/instruction_memory.v,,imm_gen,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/instruction_memory.v,1701859773,verilog,,C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/mux2_1.v,,instruction_memory,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/mux2_1.v,1701859773,verilog,,C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/registers.v,,mux2_1,,,,,,,,
+C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sources_1/new/registers.v,1701859773,verilog,,C:/Users/girni/OneDrive/Desktop/APM/Lucrarea 2/Lucrarea2/Lucrarea2.srcs/sim_1/new/RISC_V_TB.v,,registers,,,,,,,,
