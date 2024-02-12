@@ -1,0 +1,332 @@
+<profile>
+    <ReportVersion>
+        <Version>2023.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>artix7</ProductFamily>
+        <Part>xc7a100t-csg324-1</Part>
+        <TopModelName>sc1</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>no</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>2.934</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>0</Best-caseLatency>
+            <Average-caseLatency>0</Average-caseLatency>
+            <Worst-caseLatency>0</Worst-caseLatency>
+            <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+            <Interval-min>1</Interval-min>
+            <Interval-max>1</Interval-max>
+        </SummaryOfOverallLatency>
+        <SummaryOfViolations>
+            <IssueType>-</IssueType>
+            <ViolationType>-</ViolationType>
+            <SourceLocation>myFnctions.cpp:18</SourceLocation>
+        </SummaryOfViolations>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <FF>0</FF>
+            <LUT>28</LUT>
+            <BRAM_18K>0</BRAM_18K>
+            <DSP>0</DSP>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>270</BRAM_18K>
+            <DSP>240</DSP>
+            <FF>126800</FF>
+            <LUT>63400</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>a</name>
+            <Object>a</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>b</name>
+            <Object>b</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>c</name>
+            <Object>c</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>d</name>
+            <Object>d</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out1</name>
+            <Object>out1</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out2</name>
+            <Object>out2</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>bool</CType>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule MAX_DEPTH="1">
+            <ModuleName>sc1</ModuleName>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>sc1</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>2.934</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>0</Best-caseLatency>
+                    <Average-caseLatency>0</Average-caseLatency>
+                    <Worst-caseLatency>0</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0 ns</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0 ns</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0 ns</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>1</PipelineInitiationInterval>
+                    <PipelineType>no</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfViolations>
+                    <IssueType>-</IssueType>
+                    <ViolationType>-</ViolationType>
+                    <SourceLocation>myFnctions.cpp:18</SourceLocation>
+                </SummaryOfViolations>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <FF>0</FF>
+                    <AVAIL_FF>126800</AVAIL_FF>
+                    <UTIL_FF>0</UTIL_FF>
+                    <LUT>28</LUT>
+                    <AVAIL_LUT>63400</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <BRAM_18K>0</BRAM_18K>
+                    <AVAIL_BRAM>270</AVAIL_BRAM>
+                    <UTIL_BRAM>0</UTIL_BRAM>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>240</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <UserConfigCommands/>
+    <Args>
+        <Arg ArgName="a" index="0" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="a" name="a" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="b" index="1" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="b" name="b" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="c" index="2" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="c" name="c" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="d" index="3" direction="in" srcType="bool" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="d" name="d" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="out1" index="4" direction="out" srcType="bool&amp;" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="out1" name="out1" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="out2" index="5" direction="out" srcType="bool&amp;" srcSize="1">
+            <hwRefs>
+                <hwRef type="port" interface="out2" name="out2" usage="data" direction="out"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="a" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="a">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>a</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="a"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="b" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="b">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>b</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="b"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="c" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="c">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>c</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="c"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="d" type="data" busTypeName="data" protocol="ap_none" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="d">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>d</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="d"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="out1" type="data" busTypeName="data" protocol="ap_none" mode="master" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="out1">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>out1</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="out1"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="out2" type="data" busTypeName="data" protocol="ap_none" mode="master" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="out2">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>out2</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="out2"/>
+            </constraints>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="Other Ports">
+                <table>
+                    <keys size="4">Port, Mode, Direction, Bitwidth</keys>
+                    <column name="a">ap_none, in, 1</column>
+                    <column name="b">ap_none, in, 1</column>
+                    <column name="c">ap_none, in, 1</column>
+                    <column name="d">ap_none, in, 1</column>
+                    <column name="out1">ap_none, out, 1</column>
+                    <column name="out2">ap_none, out, 1</column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table>
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="a">in, bool</column>
+                    <column name="b">in, bool</column>
+                    <column name="c">in, bool</column>
+                    <column name="d">in, bool</column>
+                    <column name="out1">out, bool&amp;</column>
+                    <column name="out2">out, bool&amp;</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table>
+                    <keys size="3">Argument, HW Interface, HW Type</keys>
+                    <column name="a">a, port</column>
+                    <column name="b">b, port</column>
+                    <column name="c">c, port</column>
+                    <column name="d">d, port</column>
+                    <column name="out1">out1, port</column>
+                    <column name="out2">out2, port</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ResolutionUrl key="ZZZ">docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&amp;url=ug1448-hls-guidance&amp;resourceid=ZZZ.html</ResolutionUrl>
+    <PragmaReport>
+        <Pragma type="interface" location="myFnctions.cpp:19" status="valid" parentFunction="sc1" variable="return" isDirective="0" options="mode=ap_ctrl_none port=return"/>
+        <Pragma type="interface" location="myFnctions.cpp:20" status="valid" parentFunction="sc1" variable="a" isDirective="0" options="mode=ap_none port=a"/>
+        <Pragma type="interface" location="myFnctions.cpp:21" status="valid" parentFunction="sc1" variable="b" isDirective="0" options="mode=ap_none port=b"/>
+        <Pragma type="interface" location="myFnctions.cpp:22" status="valid" parentFunction="sc1" variable="c" isDirective="0" options="mode=ap_none port=c"/>
+        <Pragma type="interface" location="myFnctions.cpp:23" status="valid" parentFunction="sc1" variable="d" isDirective="0" options="mode=ap_none port=d"/>
+        <Pragma type="interface" location="myFnctions.cpp:24" status="valid" parentFunction="sc1" variable="out1" isDirective="0" options="mode=ap_none port=out1"/>
+        <Pragma type="interface" location="myFnctions.cpp:25" status="valid" parentFunction="sc1" variable="out2" isDirective="0" options="mode=ap_none port=out2"/>
+    </PragmaReport>
+</profile>
+

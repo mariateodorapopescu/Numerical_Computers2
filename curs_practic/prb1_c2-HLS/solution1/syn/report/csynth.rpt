@@ -1,0 +1,96 @@
+
+
+================================================================
+== Synthesis Summary Report of 'sc1'
+================================================================
++ General Information: 
+    * Date:           Thu Jan  4 18:17:47 2024
+    * Version:        2023.2 (Build 4023990 on Oct 11 2023)
+    * Project:        prb1_c2-HLS
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: artix7
+    * Target device:  xc7a100t-csg324-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +--------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    | Modules| Issue|      | Latency | Latency| Iteration|         | Trip |          |      |    |   |          |     |
+    | & Loops| Type | Slack| (cycles)|  (ns)  |  Latency | Interval| Count| Pipelined| BRAM | DSP| FF|    LUT   | URAM|
+    +--------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+    |+ sc1   |     -|  4.37|        0|   0.000|         -|        1|     -|        no|     -|   -|  -|  28 (~0%)|    -|
+    +--------+------+------+---------+--------+----------+---------+------+----------+------+----+---+----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* Other Ports
++------+---------+-----------+----------+
+| Port | Mode    | Direction | Bitwidth |
++------+---------+-----------+----------+
+| a    | ap_none | in        | 1        |
+| b    | ap_none | in        | 1        |
+| c    | ap_none | in        | 1        |
+| d    | ap_none | in        | 1        |
+| out1 | ap_none | out       | 1        |
+| out2 | ap_none | out       | 1        |
++------+---------+-----------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+----------+
+| Argument | Direction | Datatype |
++----------+-----------+----------+
+| a        | in        | bool     |
+| b        | in        | bool     |
+| c        | in        | bool     |
+| d        | in        | bool     |
+| out1     | out       | bool&    |
+| out2     | out       | bool&    |
++----------+-----------+----------+
+
+* SW-to-HW Mapping
++----------+--------------+---------+
+| Argument | HW Interface | HW Type |
++----------+--------------+---------+
+| a        | a            | port    |
+| b        | b            | port    |
+| c        | c            | port    |
+| d        | d            | port    |
+| out1     | out1         | port    |
+| out2     | out2         | port    |
++----------+--------------+---------+
+
+
+================================================================
+== Bind Op Report
+================================================================
+  No bind op info in design
+
+================================================================
+== Storage Report
+================================================================
+  No bind storage info in design
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+-------------------------------+----------------------------------+
+| Type      | Options                       | Location                         |
++-----------+-------------------------------+----------------------------------+
+| interface | mode=ap_ctrl_none port=return | myFnctions.cpp:19 in sc1, return |
+| interface | mode=ap_none port=a           | myFnctions.cpp:20 in sc1, a      |
+| interface | mode=ap_none port=b           | myFnctions.cpp:21 in sc1, b      |
+| interface | mode=ap_none port=c           | myFnctions.cpp:22 in sc1, c      |
+| interface | mode=ap_none port=d           | myFnctions.cpp:23 in sc1, d      |
+| interface | mode=ap_none port=out1        | myFnctions.cpp:24 in sc1, out1   |
+| interface | mode=ap_none port=out2        | myFnctions.cpp:25 in sc1, out2   |
++-----------+-------------------------------+----------------------------------+
+
+

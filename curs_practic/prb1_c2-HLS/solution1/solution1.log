@@ -1,0 +1,347 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.105 seconds; current allocated memory: 110.344 MB.
+INFO: [HLS 200-10] Analyzing design file 'myFnctions.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'c' (myFnctions.cpp:3:37)
+WARNING: [HLS 207-5292] unused parameter 'd' (myFnctions.cpp:3:45)
+WARNING: [HLS 200-1986] Could not apply TOP directive, invalid function, label, or variable (D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/csynth.tcl:15)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.176 seconds; current allocated memory: 111.492 MB.
+ERROR: [HLS 214-157] Top function not found: there is no function named 'sc1'
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.369 seconds; current allocated memory: 1.867 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.117 seconds; current allocated memory: 110.996 MB.
+INFO: [HLS 200-10] Analyzing design file 'myFnctions.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'c' (myFnctions.cpp:3:37)
+WARNING: [HLS 207-5292] unused parameter 'd' (myFnctions.cpp:3:45)
+WARNING: [HLS 200-1986] Could not apply TOP directive, invalid function, label, or variable (D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/csynth.tcl:15)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.236 seconds; current allocated memory: 112.359 MB.
+ERROR: [HLS 214-157] Top function not found: there is no function named 'sc1'
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 5.45 seconds; current allocated memory: 2.109 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 110.305 MB.
+INFO: [HLS 200-10] Analyzing design file 'myFnctions.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'c' (myFnctions.cpp:3:37)
+WARNING: [HLS 207-5292] unused parameter 'd' (myFnctions.cpp:3:45)
+WARNING: [HLS 200-1986] Could not apply TOP directive, invalid function, label, or variable (D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/csynth.tcl:15)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.214 seconds; current allocated memory: 111.684 MB.
+ERROR: [HLS 214-157] Top function not found: there is no function named 'sc1'
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.405 seconds; current allocated memory: 2.125 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.097 seconds; current allocated memory: 110.055 MB.
+INFO: [HLS 200-10] Analyzing design file 'myFnctions.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'c' (myFnctions.cpp:2:37)
+WARNING: [HLS 207-5292] unused parameter 'd' (myFnctions.cpp:2:45)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.044 seconds; current allocated memory: 111.355 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 57 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 47 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 37 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 29 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 37 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 38 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-178] Inlining function 'function1(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:17:0)
+INFO: [HLS 214-178] Inlining function 'function2(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:17:0)
+INFO: [HLS 214-178] Inlining function 'function3(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:17:0)
+INFO: [HLS 214-178] Inlining function 'function4(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:17:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.712 seconds; current allocated memory: 113.781 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 113.781 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.047 seconds; current allocated memory: 118.098 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.037 seconds; current allocated memory: 119.180 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.062 seconds; current allocated memory: 139.441 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.041 seconds; current allocated memory: 139.469 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sc1' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sc1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.194 seconds; current allocated memory: 139.469 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.069 seconds; current allocated memory: 139.469 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sc1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/a' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/b' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/c' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/d' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/out1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/out2' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sc1' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sc1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.145 seconds; current allocated memory: 139.469 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.289 seconds; current allocated memory: 143.859 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.488 seconds; current allocated memory: 148.023 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for sc1.
+INFO: [VLOG 209-307] Generating Verilog RTL for sc1.
+INFO: [HLS 200-789] **** Estimated Fmax: 340.83 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 11.346 seconds; current allocated memory: 38.234 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.105 seconds; current allocated memory: 110.031 MB.
+INFO: [HLS 200-10] Analyzing design file 'myFnctions.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'c' (myFnctions.cpp:2:37)
+WARNING: [HLS 207-5292] unused parameter 'd' (myFnctions.cpp:2:45)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.063 seconds; current allocated memory: 111.418 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 57 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 47 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 37 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 29 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 25 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 37 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 38 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-178] Inlining function 'function1(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'function2(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'function3(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'function4(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:18:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.886 seconds; current allocated memory: 113.691 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 113.691 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.033 seconds; current allocated memory: 117.922 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.036 seconds; current allocated memory: 119.027 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.064 seconds; current allocated memory: 139.035 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.044 seconds; current allocated memory: 139.055 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sc1' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sc1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.194 seconds; current allocated memory: 139.055 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.079 seconds; current allocated memory: 139.055 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sc1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/a' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/b' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/c' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/d' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/out1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/out2' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sc1' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sc1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.159 seconds; current allocated memory: 139.055 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.286 seconds; current allocated memory: 143.641 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.501 seconds; current allocated memory: 148.004 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for sc1.
+INFO: [VLOG 209-307] Generating Verilog RTL for sc1.
+INFO: [HLS 200-789] **** Estimated Fmax: 340.83 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.561 seconds; current allocated memory: 38.223 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file prb1_c2-HLS/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 13.093 seconds; current allocated memory: 6.156 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./prb1_c2-HLS/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name sc1 sc1 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.108 seconds; current allocated memory: 110.387 MB.
+INFO: [HLS 200-10] Analyzing design file 'myFnctions.cpp' ... 
+WARNING: [HLS 207-5292] unused parameter 'c' (myFnctions.cpp:2:37)
+WARNING: [HLS 207-5292] unused parameter 'd' (myFnctions.cpp:2:45)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.074 seconds; current allocated memory: 111.824 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 64 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 54 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 44 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 36 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 32 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 38 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 200-1995] There were 39 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details: D:/FACULTATE/ANUL_III/SEM_I/CN2/xilinx/prb1_c2-HLS/solution1/syn/report/csynth_design_size.rpt
+INFO: [HLS 214-178] Inlining function 'function1(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'function2(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'function3(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:18:0)
+INFO: [HLS 214-178] Inlining function 'function4(bool, bool, bool, bool)' into 'sc1(bool, bool, bool, bool, bool&, bool&)' (myFnctions.cpp:18:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.815 seconds; current allocated memory: 114.113 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.002 seconds; current allocated memory: 114.113 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.038 seconds; current allocated memory: 118.363 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.037 seconds; current allocated memory: 119.613 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 139.789 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.044 seconds; current allocated memory: 139.816 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sc1' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sc1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.186 seconds; current allocated memory: 139.816 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.097 seconds; current allocated memory: 139.816 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sc1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/a' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/b' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/c' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/d' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/out1' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'out1' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on port 'sc1/out2' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'out2' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'sc1' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sc1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.212 seconds; current allocated memory: 139.816 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.293 seconds; current allocated memory: 143.781 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.443 seconds; current allocated memory: 148.512 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for sc1.
+INFO: [VLOG 209-307] Generating Verilog RTL for sc1.
+INFO: [HLS 200-789] **** Estimated Fmax: 340.83 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.556 seconds; current allocated memory: 38.379 MB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2023.2 (64-bit)
+Tool Version Limit: 2023.10
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7a100t-csg324-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7a100tcsg324-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./prb1_c2-HLS/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name sc1 sc1 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file prb1_c2-HLS/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 13.033 seconds; current allocated memory: 6.457 MB.
